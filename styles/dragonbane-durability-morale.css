@@ -1,0 +1,57 @@
+/* Estilos para o módulo World Durability & Morale */
+
+/* Estilo para as tabelas de durabilidade */
+table[style="border-style:none;border-width:0px"] {
+    margin-top: 5px;
+    width: 100%;
+  }
+  
+  table[style="border-style:none;border-width:0px"] input {
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Estilo para o campo de durabilidade de armas */
+  input[name="flags.world.damaged"] {
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Estilo para o campo de moral */
+  input[data-property="flags.world.morale"] {
+    width: 100%;
+  }
+  
+  /* Estilos para durabilidade total da armadura (estilo derived-stat) */
+  .armor-durability-stat {
+    margin: 5px 5px 5px 0;
+    width: 100%;
+  }
+  
+  .armor-durability-stat th {
+    font-weight: bold;
+    text-align: left;
+    padding-right: 10px;
+  }
+  
+  .armor-durability-input {
+    width: 60px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.5);
+    border: 1px solid #a88;
+    border-radius: 3px;
+    padding: 3px;
+    /* Estilo para campo somente leitura, mantendo a aparência consistente */
+    color: #444;
+    cursor: default;
+  }
+  
+  /* Campo somente leitura com estilo mais suave */
+  .armor-durability-input[readonly] {
+    background-color: rgba(245, 245, 245, 0.7);
+  }
+  
+  /* Espaçamento para a linha de durabilidade */
+  .durability-stats-row {
+    margin-top: 10px;
+  }
