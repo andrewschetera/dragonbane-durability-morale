@@ -21,7 +21,7 @@ Este módulo adiciona os seguintes campos ao seu mundo do Foundry VTT:
 ### Método 1: Instalação via URL de manifesto
 1. No seu Foundry VTT, vá para a aba "Add-on Modules"
 2. Clique em "Install Module"
-3. Cole a URL do manifesto: `https://github.com/andrewschetera/dragonbane-durability-morale/blob/main/module.json`
+3. Cole a URL do manifesto: `https://raw.githubusercontent.com/andrewschetera/dragonbane-durability-morale/main/module.json`
 4. Clique em "Install"
 
 ### Método 2: Instalação manual
