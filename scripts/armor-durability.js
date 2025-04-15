@@ -7,10 +7,15 @@ export function registerArmorDurability() {
     if(item.isOwner && item.type === "armor") {      
       const durability = item.flags.world?.durability ?? '0';
       const notch = item.flags.world?.notch ?? '0';
+      
+      // Obtenha as strings traduzidas
+      const durabilityLabel = game.i18n.localize("dragonbane-durability-morale.durability.title");
+      const notchLabel = game.i18n.localize("dragonbane-durability-morale.durability.notch");
+      
       let myContent = $(`<table style="border-style:none;border-width:0px" border="0"><tbody>
 <tr>
-          <th style="border-width:0px">Durability</th>
-          <th style="border-width:0px">Notches</th>
+          <th style="border-width:0px">${durabilityLabel}</th>
+          <th style="border-width:0px">${notchLabel}</th>
 </tr><tr>
           <td style="border-width:0px">
               <input name="flags.world.durability" type="text" value="${durability}">
