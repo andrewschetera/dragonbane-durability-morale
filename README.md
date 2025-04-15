@@ -1,6 +1,6 @@
-# World Durability & Morale
+# Dragonbane Durability & Morale
 
-Um módulo para Foundry VTT v12 que adiciona campos de durabilidade para equipamentos e moral para NPCs e monstros.
+Um módulo para Foundry VTT v12 que adiciona campos de durabilidade para equipamentos e moral para NPCs e monstros no sistema Dragonbane.
 
 ## Funcionalidades
 
