@@ -6,9 +6,13 @@ export function registerWeaponDurability() {
 
     if(item.isOwner && item.type === "weapon") {      
       const notch = item.flags.world?.notch ?? '0';
+      
+      // Obtenha a string traduzida
+      const notchLabel = game.i18n.localize("dragonbane-durability-morale.durability.notch");
+      
       let myContent = $(`<table><tbody>
       <tr>
-          <th>Notches</th>
+          <th>${notchLabel}</th>
       </tr>
       
       <tr>
