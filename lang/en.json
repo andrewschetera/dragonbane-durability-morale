@@ -1,0 +1,18 @@
+{
+  "dragonbane-durability-morale": {
+    "settings": {
+      "moduleEnabled": {
+        "name": "Enable Module",
+        "hint": "Enable or disable the module functionality"
+      }
+    },
+    "durability": {
+      "title": "Durability",
+      "notch": "Notch",
+      "totalArmor": "Total Armor Durability"
+    },
+    "morale": {
+      "title": "Morale"
+    }
+  }
+}
