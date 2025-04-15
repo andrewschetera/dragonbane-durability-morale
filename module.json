@@ -27,6 +27,6 @@
     }
   ],
   "url": "https://github.com/andrewschetera/dragonbane-durability-morale",
-  "manifest": "https://github.com/andrewschetera/dragonbane-durability-morale/blob/main/module.json",
+  "manifest": "https://raw.githubusercontent.com/andrewschetera/dragonbane-durability-morale/main/module.json",
   "download": "https://github.com/andrewschetera/dragonbane-durability-morale/archive/refs/heads/main.zip"
 }
