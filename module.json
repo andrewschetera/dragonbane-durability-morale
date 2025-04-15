@@ -1,0 +1,32 @@
+{
+  "id": "dragonbane-durability-morale",
+  "title": "Dragonbane Durability & Morale",
+  "description": "Um módulo que adiciona campos de durabilidade para armas, armaduras e elmos, além de moral para NPCs e monstros para o Sistema Dragonbane.",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "authors": [
+    {
+      "name": "andrews"
+    }
+  ],
+  "esmodules": [
+    "scripts/main.js"
+  ],
+  "scripts": [],
+  "styles": [
+    "styles/dragonbane-durability-morale.css"
+  ],
+  "languages": [
+    {
+      "lang": "pt-BR",
+      "name": "Português (Brasil)",
+      "path": "lang/pt-BR.json"
+    }
+  ],
+  "url": "",
+  "manifest": "",
+  "download": ""
+}
