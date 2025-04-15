@@ -8,11 +8,14 @@ export function registerTotalArmorDurability() {
         // Obter o valor atual ou definir como 0
         let totalarmordurability = actor.getFlag("world", "totalarmordurability") || '0';
         
+        // Obtenha a string traduzida
+        const totalArmorLabel = game.i18n.localize("dragonbane-durability-morale.durability.totalArmor");
+        
         // Criando uma tabela com classe "derived-stat"
         let myContent = $(`
           <table class="derived-stat armor-durability-stat">
             <tr>
-              <th>Total Armor Durability</th>
+              <th>${totalArmorLabel}</th>
               <td>
                 <input class="armor-durability-input" name="flags.world.totalarmordurability" type="number" 
                       value="${totalarmordurability}" data-dtype="number">
