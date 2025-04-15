@@ -1,0 +1,12 @@
+{
+  "world-durability-morale": {
+    "durability": {
+      "title": "Durabilidade",
+      "notch": "Chanfro",
+      "totalArmor": "Durabilidade Total da Armadura"
+    },
+    "morale": {
+      "title": "Moral"
+    }
+  }
+}
