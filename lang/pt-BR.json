@@ -1,5 +1,11 @@
 {
-  "world-durability-morale": {
+  "dragonbane-durability-morale": {
+    "settings": {
+      "moduleEnabled": {
+        "name": "Ativar Módulo",
+        "hint": "Ativar ou desativar a funcionalidade do módulo"
+      }
+    },
     "durability": {
       "title": "Durabilidade",
       "notch": "Chanfro",
