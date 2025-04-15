@@ -21,9 +21,16 @@
   ],
   "languages": [
     {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json",
+      "flags": {}
+    },
+    {
       "lang": "pt-BR",
       "name": "Português (Brasil)",
-      "path": "lang/pt-BR.json"
+      "path": "lang/pt-BR.json",
+      "flags": {}
     }
   ],
   "url": "https://github.com/andrewschetera/dragonbane-durability-morale",
