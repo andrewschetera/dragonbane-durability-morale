@@ -21,11 +21,11 @@ Este módulo adiciona os seguintes campos ao seu mundo do Foundry VTT:
 ### Método 1: Instalação via URL de manifesto
 1. No seu Foundry VTT, vá para a aba "Add-on Modules"
 2. Clique em "Install Module"
-3. Cole a URL do manifesto: `https://raw.githubusercontent.com/seunome/world-durability-morale/main/module.json`
+3. Cole a URL do manifesto: `https://github.com/andrewschetera/dragonbane-durability-morale/blob/main/module.json`
 4. Clique em "Install"
 
 ### Método 2: Instalação manual
-1. Baixe [este ZIP](https://github.com/seunome/world-durability-morale/archive/refs/heads/main.zip)
+1. Baixe [este ZIP](https://github.com/andrewschetera/dragonbane-durability-morale/archive/refs/heads/main.zip)
 2. Extraia o conteúdo para a pasta `modules` dentro do seu diretório de dados do Foundry VTT
 3. Reinicie o Foundry VTT
 
@@ -48,7 +48,7 @@ Este módulo foi projetado para funcionar com a maioria dos sistemas no Foundry 
 
 ## Suporte
 
-Se encontrar algum problema ou tiver sugestões, por favor, abra uma [issue no GitHub](https://github.com/seunome/world-durability-morale/issues).
+Se encontrar algum problema ou tiver sugestões, por favor, abra uma [issue no GitHub](https://github.com/andrewschetera/dragonbane-durability-morale/issues).
 
 ## Licença
 
